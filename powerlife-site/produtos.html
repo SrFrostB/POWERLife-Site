@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos - PowerLife</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header>
-    <a href="index.html">
-        <img src="img/logo.png" alt="PowerLife" class="logo-img">
-    </a>
-    <nav>
-        <a href="index.html">Início</a>
-        <a href="produtos.html">Produtos</a>
-        <a href="contato.html">Contato</a>
-        <a href="faq.html">FAQ</a>
-    </nav>
+<div class="logo-area">
+<img src="img/logo.png" class="logo-img" alt="PowerLife Suplementos">
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="produtos.html">Produtos</a>
+<a href="contato.html">Contato</a>
+<a href="faq.html">FAQ</a>
+</nav>
 </header>
 
 <main>
@@ -29,21 +30,25 @@
         <img src="img/whey.jpg" alt="whey">
         <h3>Whey Protein</h3>
         <p>Proteína de alta qualidade para ganho de massa muscular.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
     <div class="produto-card">
         <img src="img/whey_isolado.jpg" alt="whey_isolado">
         <h3>Whey Protein Isolado</h3>
         <p>O Whey Protein Isolado acaba sendo um dos suplementos preferidos entre atletas, praticantes de atividade física e até pessoas que não estão engajadas em rotinas de treinamento.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
     <div class="produto-card">
         <img src="img/proteina_vegetal.jpg" alt="proteina_vegetal">
         <h3>Proteína Vegetal</h3>
         <p>A proteína vegetal, obtida de fontes como leguminosas, sementes, oleaginosas e grãos, é um nutriente de alto valor biológico que atua na construção muscular, digestão e saciedade.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
     <div class="produto-card">
         <img src="img/caseina.jpg" alt="caseina">
         <h3>Caseína</h3>
         <p>É a principal proteína do leite de vaca (cerca de 80%), conhecida por ser de alto valor biológico e por ter uma digestão lenta e liberação gradual de aminoácidos no sangue.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>     
 </div>
 
@@ -53,21 +58,25 @@
         <img src="img/creatina.jpg" alt="Creatina">
         <h3>Creatina Monohidratada</h3>
         <p>Fornece mais energia durante o treino, além de ajudar no aumento do desempenho físico durante exercícios repetidos de curta duração e alta intensidade e contribuir na hipertrofia muscular.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
     <div class="produto-card">
         <img src="img/pre_treino.jpg" alt="pre_treino">
         <h3>Pré-treino Extreme</h3>
         <p> É um suplemento desenvolvido para aumentar a energia, foco, vasodilatação e resistência muscular em treinos intensos.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
     <div class="produto-card">
         <img src="img/bcaa.jpg" alt="bcaa">
         <h3>BCAA</h3>
         <p> BCAA — leucina, isoleucina e valina — são aminoácidos essenciais que o corpo não produz.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
     <div class="produto-card">
         <img src="img/beta_alanina.jpg" alt="beta_alanina">
         <h3>Beta-Alinina</h3>
         <p> É um aminoácido não essencial que aumenta os níveis de carnosina muscular, funcionando como um "tampão" que retarda a fadiga, reduz a queimação e aumenta a resistência em treinos intensos.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
 </div>
 
@@ -78,21 +87,25 @@
         <img src="img/multivitaminico.jpg" alt="Multivitaminico">
         <h3>Multivitamínico</h3>
         <p>O Multivitamínico é um suplemento desenvolvido para quem busca mais qualidade de vida, disposição diária e fortalecimento do sistema imunológico</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
     <div class="produto-card">
         <img src="img/omega_3.jpg" alt="omega_3">
         <h3>Omega 3</h3>
         <p> É uma gordura poli-insaturada essencial (EPA e DHA) que o corpo não produz, crucial para a saúde cardiovascular, cerebral e anti-inflamatória.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
     <div class="produto-card">
         <img src="img/vitaminaD.jpg" alt="vitaminaD">
         <h3>Vitamina D</h3>
         <p> É um pró-hormônio essencial para a saúde óssea, regulação do cálcio, fortalecimento do sistema imunológico e funcionamento neuromuscular.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
     <div class="produto-card">
         <img src="img/complexoB.jpg" alt="complexoB">
         <h3>Complexo B</h3>
         <p> É um grupo de oito vitaminas hidrossolúveis essenciais que atuam no metabolismo energético, convertendo alimentos em energia, além de serem cruciais para a saúde do sistema nervoso, função cerebral e produção de células sanguíneas.</p>
+        <button onclick="comprar()">Comprar</button>
     </div>
 </div>
 </section>
@@ -101,6 +114,6 @@
 <footer>
     <p>© 2026 PowerLife Suplementos</p>
 </footer>
-
+<script src="js/script.js"></script>
 </body>
 </html>
